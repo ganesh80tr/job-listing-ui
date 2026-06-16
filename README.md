@@ -2,6 +2,10 @@
 
 A responsive Job Listing UI built with React and Vite.
 
+## Screenshot
+<img width="1920" height="1080" alt="Screenshot 2026-06-16 210605" src="https://github.com/user-attachments/assets/07fc6fc4-fbfc-44bf-a49b-ff0dc70d1066" />
+
+
 ## Features
 
 * Browse job listings
