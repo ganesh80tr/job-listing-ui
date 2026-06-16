@@ -1,0 +1,152 @@
+/* =========================
+   Global Styles
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================
+   Parent Container
+========================= */
+
+.parent {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2dada;
+  gap: 50px;
+  padding: 35px;
+}
+
+
+/* =========================
+   Card
+========================= */
+
+.card {
+  width: 340px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+/* =========================
+   Top Section
+========================= */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.top img {
+  width: 80px;
+  padding: 12px;
+  border-radius: 50%;
+  border: 1px solid rgb(170, 162, 162);
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid rgb(170, 162, 162);
+  border-radius: 6px;
+  background: #f1f1f1;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.top button:hover {
+  background: #e4e4e4;
+}
+
+
+/* =========================
+   Center Section
+========================= */
+
+.center h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.center span {
+  font-size: 12px;
+  color: gray;
+  margin-left: 6px;
+}
+
+.center h2 {
+  font-size: 20px;
+  margin: 10px 0 12px;
+}
+
+
+/* Tags */
+
+.center div {
+  display: flex;
+  gap: 10px;
+}
+
+.center h4 {
+  font-size: 12px;
+  padding: 5px 10px;
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+
+
+/* =========================
+   Bottom Section
+========================= */
+
+.bottom{
+  margin-top: 20px;
+}
+
+.bottom > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Price + Location */
+
+.bottom h3{
+  font-size: 18px;
+}
+
+.bottom p{
+  font-size: 13px;
+  color: gray;
+  margin-top: 3px;
+}
+
+/* Apply Button */
+
+.bottom button{
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.bottom button:hover{
+  background: #333;
+}
